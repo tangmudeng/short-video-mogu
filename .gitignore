@@ -1,0 +1,32 @@
+# Decrypted core. The public repository tracks only the encrypted package,
+# installers, documentation, and a few sample images.
+.agents/
+AGENTS.md
+apps/
+assets/characters/CHARACTER_ASSET_INDEX.md
+assets/characters/*/character-profile.md
+assets/characters/*/costumes/
+output/
+outputs/
+references/prompt-styles/
+references/source-videos/*/*.md
+references/source-videos/*/analysis*/
+stories/
+storyboards/
+walulu异界游/
+warm-original-ip-incubator/
+
+# Credentials and machine-local files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.*
+secrets.*
+*.local.json
+node_modules/
+.DS_Store
+Thumbs.db
